@@ -3,6 +3,8 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLa
 from PyQt6.QtCore import QTimer, QTime
 import psutil
 import sqlite3
+import os
+os.environ["DISPLAY"] = ":0"
 
 class SystemMonitor(QMainWindow):
     def __init__(self):
