@@ -41,20 +41,38 @@ This application is designed to monitor and display real-time system metrics suc
 ## Installation / Установка
 ### Prerequisites / Предварительные требования
 - Python 3.12 or higher / Python 3.12 или выше
-- Linux operating system / Операционная система Linux
+- Operating system: Windows, Linux, or macOS / Операционная система: Windows, Linux или macOS
 
-### Setup / Настройка
-1. Clone the repository: / Клонируйте репозиторий:
+### Setup on Windows / Настройка на Windows
+1. Download and install Python 3.12 from [python.org](https://www.python.org/downloads/).
+2. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
-   cd repository
+   git clone https://github.com/Arm1700/Desktop-App.git
+   cd Desktop-App
    ```
-2. Create and activate a virtual environment: / Создайте и активируйте виртуальное окружение:
+3. Create and activate a virtual environment:
    ```bash
    python -m venv venv
+   venv\Scripts\activate
+   ```
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Setup on Linux/Mac OS / Настройка на Linux/Mac OS
+1. Install Python 3.12 using your package manager (e.g., `brew install python` on macOS, `sudo apt-get install python3.12` on Ubuntu).
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/Arm1700/Desktop-App.git
+   cd Desktop-App
+   ```
+3. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
    source venv/bin/activate
    ```
-3. Install dependencies: / Установите зависимости:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -93,9 +111,18 @@ your_project/
 - **view_history()**: Displays previously recorded metrics in the history view. / Отображает ранее записанные метрики в просмотре истории.
 
 ## Running the Application / Запуск приложения
-1. Start the application: / Запустите приложение:
+
+### On Windows / На Windows
+1. Start the application by running: / Запустите приложение, выполнив:
    ```bash
    python src/main.py
+   ```
+2. Use the interface to monitor system metrics and manage recordings. / Используйте интерфейс для мониторинга системных метрик и управления записями.
+
+### On Linux/Mac OS / На Linux/Mac OS
+1. Start the application by running: / Запустите приложение, выполнив:
+   ```bash
+   python3 src/main.py
    ```
 2. Use the interface to monitor system metrics and manage recordings. / Используйте интерфейс для мониторинга системных метрик и управления записями.
 
@@ -111,7 +138,7 @@ Example output: / Пример вывода:
 ```
 
 ## Time Spent / Время затрачено
-Time spent on completing this project: **[3.3 hours]** / Время, затраченное на завершение этого проекта: **[3.3 hours]**
+Time spent on completing this project: **[3.5 hours]** / Время, затраченное на завершение этого проекта: **[3.5 hours]**
 
 
 ## Resume / Резюме
