@@ -110,26 +110,11 @@ Example output: / Пример вывода:
 ...
 ```
 
-## Continuous Integration (CI) / Непрерывная интеграция (CI)
-This project includes a GitHub Actions workflow for automatically running tests on each push to the repository. / Этот проект включает в себя рабочий процесс GitHub Actions для автоматического запуска тестов при каждом пуше в репозиторий.
-
-### Workflow File / Файл рабочего процесса
-The workflow is located at `.github/workflows/tests.yml`. / Рабочий процесс находится в `.github/workflows/tests.yml`.
-
-## Contributing / Участие
-Contributions are welcome! Please open an issue or submit a pull request for any improvements. / Вклад приветствуется! Пожалуйста, откройте проблему или отправьте запрос на изменение для любых улучшений.
-
 ## Time Spent / Время затрачено
-Time spent on completing this project: **[Add your time estimate]** / Время, затраченное на завершение этого проекта: **[Добавьте вашу оценку времени]**
+Time spent on completing this project: **[3.3 hours]** / Время, затраченное на завершение этого проекта: **[3.3 hours]**
+
 
 ## Resume / Резюме
-[Attach or provide a link to your resume.] / [Прикрепите или предоставьте ссылку на ваше резюме.]
-
-## Contact / Контакт
-For any questions, reach out via Telegram: `@DeleteAm`. / Если у вас есть вопросы, свяжитесь через Telegram: `@DeleteAm`.
+[(https://github.com/user-attachments/files/18462629/Arman.Beglaryan.CV.pdf)] / [(https://github.com/user-attachments/files/18462629/Arman.Beglaryan.CV.pdf)]
 
 ---
-
-### Notes / Заметки
-Make sure to replace placeholder links (e.g., repository URL and screenshots) with actual content before submitting the project. / Убедитесь, что вы заменили ссылки-заполнители (например, URL репозитория и скриншоты) на фактическое содержимое перед отправкой проекта."# Desktop-App" 
-"# Desktop-App" 
