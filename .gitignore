@@ -1,0 +1,14 @@
+# Virtual environments
+venv/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+
+# Pytest cache
+__pycache__/
+
+system_data.db
